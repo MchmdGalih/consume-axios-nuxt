@@ -5,8 +5,8 @@
       <Hero />
       <div class="row mb-2">
         <Article
-          v-for="(article, index) in articles"
-          :key="index"
+          v-for="article in articles"
+          :key="article.link"
           :article="article"
         />
       </div>
